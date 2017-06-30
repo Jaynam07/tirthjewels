@@ -25,6 +25,7 @@ body {
     top: 0;
     left: 0;
     font-family: 'Raleway', sans-serif;
+    overflow: hidden;
 }
 
 .st-container>input,
