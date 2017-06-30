@@ -1,8 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: #ddd;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 16px;
     color: #333;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
@@ -221,10 +220,11 @@ body {
     text-shadow: 1px 1px 1px rgba(151, 24, 64, 0.2);
     position: relative;
     font-size: 54px;
-    font-weight: 900;
+    font-weight: 800;
     width: 80%;
     left: 10%;
     text-align: center;
+    text-transform: uppercase;
     line-height: 50px;
     padding: 0;
     top: 15%;
@@ -405,7 +405,7 @@ body {
 
 .st-color p {
     color: #fff;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
 }
 
 @media screen and (max-width: 520px) {
@@ -423,8 +423,12 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+    .st-container>input:hover+a {
+        color: gold;
+        font-size: 12px;
+    }
     .st-panel h2 {
-        font-size: 27px;
+        font-size: 21px;
     }
     .st-container>a {
         font-size: 10px;
