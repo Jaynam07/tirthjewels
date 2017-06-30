@@ -3,8 +3,9 @@
 .large-header {
     position: relative;
     overflow: hidden;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat
 }
 
 .brand .large-header {
@@ -33,16 +34,24 @@
     -webkit-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0);
     z-index: 500;
-}
-
-.brand .main-title {
     text-transform: uppercase;
     font-size: 4.5em;
     letter-spacing: 0.1em;
+    color: darkgoldenrod;
 }
 
 .main-title .thin {
     font-weight: 500;
+    color: #fff;
+}
+
+@media only screen and (max-width: 520px) {
+    .large-header {
+        background-position-y: 40%;
+    }
+    .main-title {
+        top: 70%;
+    }
 }
 
 @media only screen and (max-width: 768px) {

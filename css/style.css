@@ -210,8 +210,8 @@ body {
 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'RaphaelIcons';
-    color: gold;
     text-shadow: 1px 1px 1px rgba(151, 24, 64, 0.2);
+    color: #000;
     position: absolute;
     width: 144px;
     height: 144px;
@@ -399,6 +399,10 @@ body {
 
 /* Colored sections */
 
+.st-mainpage-color {
+    background: #fff;
+}
+
 .st-color {
     background: #fff;
 }
@@ -448,9 +452,6 @@ body {
 }
 
 @media screen and (max-width: 360px) {
-    body {
-        overflow: hidden;
-    }
     .gallery {
         margin-top: 21%;
     }
@@ -465,7 +466,6 @@ body {
         margin-top: 9px;
     }
     .st-container>input:hover+a {
-        color: gold;
         font-size: 12px;
     }
     .st-panel h2 {
