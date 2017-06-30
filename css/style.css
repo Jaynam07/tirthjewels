@@ -423,6 +423,9 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+    body {
+        overflow: hidden;
+    }
     .st-container>input:hover+a {
         color: gold;
         font-size: 12px;
