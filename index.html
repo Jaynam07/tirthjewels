@@ -1,461 +1,216 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-<html lang="en" class="no-js">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Tirth Jewels</title>
-    <meta name="description" content="TirthJewels" />
-    <meta name="keywords" content="TirthJewels, jewellery design, diamonds" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
     <meta name="author" content="" />
-    <!-- Bootstrap -->
-    <script src="js/modernizr.custom.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/flickity.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" href="css/layout.css">
-    <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/brand.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <!--[if lte IE 8]>
+			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
 		<![endif]-->
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-    <!-- open/close -->
-    <header>
-        <section class="hero">
-            <video autoplay loop muted poster="screenshot.jpg" id="background">
-2
-    <source src="dummy.mp4" type="video/mp4">
-3
-</video>
-            <div class="texture-overlay"></div>
+    <div class="container-fluid no-padding">
+        <div class="st-container">
 
-            <div class="container">
-                <div class="row nav-wrapper">
-                    <div class="col-md-6 col-sm-6 col-xs-6 text-left">
-                        <a href="#" class="brand"><img src="img/logo.png" alt="TIRTH Jewels">
-                            <div class="brand-flex">
-                                <span class="brand-heading">Tirth Jewels</span>
-                                <span class="brand-subheading">QUALITY SPARKLE OVER JUST SHINE</span>
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1" />
+            <a href="#st-panel-1">TJ</a>
+            <input type="radio" name="radio-set" id="st-control-2" />
+            <a href="#st-panel-2">About</a>
+            <input type="radio" name="radio-set" id="st-control-3" />
+            <a href="#st-panel-3">Gallery</a>
+            <input type="radio" name="radio-set" id="st-control-4" />
+            <a href="#st-panel-4">Contact</a>
+
+
+
+
+
+            <div class="st-scroll">
+
+                <!-- Placeholder text from http://hipsteripsum.me/ -->
+
+                <section class="st-panel" id="st-panel-1">
+                    <div class="st-deco" data-icon="TJ"></div>
+                    <div class="container-fluid no-padding brand">
+                        <div class="content">
+                            <div class="header-overlay"></div>
+                            <div id="large-header" class="large-header">
+                                <canvas id="brand-canvas"></canvas>
+                                <h1 class="main-title">Tirth <span class="thin">Jewels</span></h1>
                             </div>
 
-                        </a>
+
+                        </div>
+
+
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
-                        <p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
-                    </div>
-                </div>
-                <!--<div class="row hero-content">
-                    <div class="col-md-12">
-                        <h1 class="animated fadeInDown">Tirth Jewels</h1>
-                        <a href="http://tympanus.net/codrops/?p=22554" class="use-btn animated fadeInUp">Use it for free</a> <a href="#about" class="learn-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>
-                    </div>
-                </div>-->
-            </div>
-        </section>
-    </header>
+                </section>
 
-    <section class="features-intro" id="about">
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="col-md-6 nopadding">
-
-                    <div class="features-slider">
-
-                        <ul class="slides" id="featuresSlider">
+                <section class="st-panel st-color" id="st-panel-2">
+                    <div class="st-deco" data-icon="TJ"></div>
+                    <h2>About</h2>
 
 
-                            <li>
-                                <h1>TRUSTWORTHY</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                                <p><a href="#features" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
-                                <div class="ring-logo wp1">
-                                    <img class="" src="img/ring-logo.png" width="108" alt="Ring">
+
+                    <p>Tirth Jewels is committed to provide effective services and communication of business related inputs to its members as per the charter.</p>
+                    <p>Tirth Jewels is committed to provide effective services and communication of business related inputs to its members as per the charter.</p>
+                    <p>Tirth Jewels is committed to provide effective services and communication of business related inputs to its members as per the charter.</p>
+                </section>
+
+                <section class="st-panel st-color" id="st-panel-3">
+                    <div class="st-deco" data-icon="TJ"></div>
+                    <h2>Gallery</h2>
+
+                    <div class="container-fluid">
+                        <div class="gallery">
+
+                            <div class="col-lg-5 col-md-5">
+
+                                <div id="carousel1" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel1" data-slide-to="1"></li>
+                                        <li data-target="#carousel1" data-slide-to="2"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/1.jpg" alt="...">
+                                            <div class="carousel-caption">
+                                                ...
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/2.jpg" alt="...">
+                                            <div class="carousel-caption">
+                                                ...
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/3.jpg" alt="...">
+                                            <div class="carousel-caption">
+                                                ...
+                                            </div>
+                                        </div>
+                                        ...
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
-                            </li>
-                            <li>
-                                <h1>GAURANTEE</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                                <p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
-                                <div class="ring-logo wp1">
-                                    <img class="" src="img/ring-logo.png" width="108" alt="Ring">
+
+                            </div>
+                            <div class="col-lg-5 col-md-5">
+
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="img/1.jpg" alt="...">
+                                            <div class="carousel-caption">
+                                                ...
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/2.jpg" alt="...">
+                                            <div class="carousel-caption">
+                                                ...
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/3.jpg" alt="...">
+                                            <div class="carousel-caption">
+                                                ...
+                                            </div>
+                                        </div>
+                                        ...
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
-                            </li>
-                            <li>
-                                <h1>CONNECT</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                                <p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
-                                <div class="ring-logo wp1">
-                                    <img class="" src="img/ring-logo.png" width="108" alt="Ring">
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div class="col-md-6 nopadding features-intro-img">
-                    <div class="features-bg">
-                        <div class="texture-overlay"></div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="features-list" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="col-md-4 feature-1 wp2">
-                        <div class="feature-icon">
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h1>TRUSTWORTHY</h1>
-                            <p>Built using HTML5/CSs2 and jQuery, and built using one of the world's most powerful CSS frameworks available, Bootstrap.</p>
-                            <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 feature-2 wp2 delay-05s">
-                        <div class="feature-icon">
-                            <i class="fa fa-flash"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h1>GAURANTEE</h1>
-                            <p>Perfect if you run your own start-up, product or service. Boxify can showcase your business converting your visits to income.</p>
-                            <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 feature-3 wp2 delay-1s">
-                        <div class="feature-icon">
-                            <i class="fa fa-heart"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h1>Absolutely Free</h1>
-                            <p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="#">buy me a beer</a>. </p>
-                            <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="showcase">
-        <div class="showcase-wrap">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-
-                        <div class="device wp3">
-
-                            <div class="device-content">
-
-                                <div class="showcase-slider">
-                                    <ul class="slides" id="showcaseSlider">
-                                        <li>
-                                            <img src="img/screen1.jpg" alt="Device Content Image">
-                                        </li>
-                                        <li>
-                                            <img src="img/screen2.jpg" alt="Device Content Image">
-                                        </li>
-                                        <li>
-                                            <img src="img/screen3.jpg" alt="Device Content Image">
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="device-text-overlay">
-                                    <h4>Swipe</h4>
-
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--<div class="col-md-6">
-                        <h1>Showcase your Product or Service</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                        <blockquote class="team-quote">
-                            <div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc." - Steve Jobs</p>
-                            <div class="logo-quote">
-                                <a href="http://tympanus.net/codrops/"><img src="img/codrops-logo.png" alt="Codrops Logo"></a>
-                            </div>
-                        </blockquote>
-                        <a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
-                    </div>-->
-                </div>
+
+
+
+
+                </section>
+
+                <section class="st-panel st-color" id="st-panel-4">
+                    <div class="st-deco" data-icon="TJ"></div>
+                    <h2>Contact</h2>
+                    <p>Mixtape fap leggings art party, butcher authentic farm-to-table you probably haven't heard of them do labore cosby sweater.</p>
+                </section>
+
+
+
             </div>
+            <!-- // st-scroll -->
+
         </div>
-    </section>
+        <!-- // st-container -->
 
-    <section class="screenshots-intro" id="screenshots">
-
-        <div class="container-fluid">
-
-            <ul id="filters" class="clearfix">
-                <li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li>
-                <li><span class="filter" data-filter=".app">Men</span></li>
-                <li><span class="filter" data-filter=".card">Women</span></li>
-                <li><span class="filter" data-filter=".icon">Diamonds</span></li>
-                <li><span class="filter" data-filter=".logo">Rings</span></li>
-                <li><span class="filter" data-filter=".web">Necklace</span></li>
-            </ul>
-            <div class="screenshots">
-                <div id="portfoliolist">
-                    <li class="portfolio logo" data-cat="logo">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-                    <li class="portfolio app" data-cat="app">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-                    <li class="portfolio logo" data-cat="logo">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-                    <li class="portfolio logo" data-cat="logo">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-                    <li class="portfolio logo" data-cat="logo">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-                    <li class="portfolio app" data-cat="app">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-
-
-
-                    <li class="portfolio card" data-cat="card">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-                    <li class="portfolio web" data-cat="web">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-                    <li class="portfolio icon" data-cat="icon">
-                        <figure>
-                            <img src="img/s2.jpg" alt="Screenshot 01">
-                            <figcaption>
-                                <div class="caption-content">
-                                    <a href="img/s2.jpg" class="single_image">
-                                        <i class="fa fa-search"></i><br>
-                                        <p>Optimised For Design</p>
-                                    </a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-
-
-
-                </div>
-            </div>
-    </section>
-    <section class="download" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center wp4">
-                    <h1>Contact</h1>
-                    <a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h1 class="footer-logo">
-                        <img src="img/logo.png" alt="TIRTH JEWELS">
-                    </h1>
-
-                </div>
-                <div class="col-md-7">
-                    <ul class="footer-nav">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#screenshots">Collection</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="overlay overlay-boxify">
-        <nav>
-            <ul>
-                <li><a href="#about"><i class="fa fa-info" aria-hidden="true"></i>About</a></li>
-                <li><a href="#features"><i class="fa fa-heart" aria-hidden="true"></i>Features</a></li>
-            </ul>
-            <ul>
-                <li><a href="#screenshots"><i class="fa fa-diamond" aria-hidden="true"></i>Collections</a></li>
-                <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
-            </ul>
-        </nav>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/min/toucheffects-min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/flickity.pkgd.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/retina.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/min/scripts-min.js"></script>
+
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/brand.js"></script>
 
 
 
-    <script>
-        $(function() {
 
-            var filterList = {
-
-                init: function() {
-
-                    // MixItUp plugin
-                    // http://mixitup.io
-                    $('#screenshots').mixItUp({
-                        selectors: {
-                            target: '.portfolio',
-                            filter: '.filter'
-                        },
-                        load: {
-                            filter: '.app, .card, .icon, .logo, .web'
-                        }
-                    });
-
-                }
-
-            };
-
-            // Run the show!
-            filterList.init();
-
-
-        });
-    </script>
 
 </body>
 
