@@ -432,11 +432,37 @@ body {
     .st-container>a {
         font-size: 13px;
     }
+    .gallery {
+        margin-top: 21%;
+    }
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img {
+        height: 117px;
+    }
+    .carousel-control {
+        height: 117px;
+    }
+    .carousel {
+        margin-top: 9px;
+    }
 }
 
 @media screen and (max-width: 360px) {
     body {
         overflow: hidden;
+    }
+    .gallery {
+        margin-top: 21%;
+    }
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img {
+        height: 117px;
+    }
+    .carousel-control {
+        height: 117px;
+    }
+    .carousel {
+        margin-top: 9px;
     }
     .st-container>input:hover+a {
         color: gold;
