@@ -439,7 +439,9 @@ body {
         margin-left: -60px;
     }
     [data-icon]:after {
-        font-size: 60px;
+        font-size: 45px;
+        top: 54%;
+        left: 54%;
         -webkit-transform: rotate(-45deg) translateY(15%);
         -moz-transform: rotate(-45deg) translateY(15%);
         -o-transform: rotate(-45deg) translateY(15%);
